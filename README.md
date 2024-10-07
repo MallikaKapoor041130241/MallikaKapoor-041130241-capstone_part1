@@ -1,2 +1,2 @@
 # MallikaKapoor-041130241-capstone_part1
-relative/path/to/ec761e6a78ceb3cb5bdca763714ab836dbac56c3.PDF
+https://github.com/username/repository/blob/main/KAPOOR_MALLIKA_CAPSTONE PART 2 MOCKUP.pdf
