@@ -1,0 +1,355 @@
+/* General Styles */
+body {
+    font-family: 'KoHo', Poppins;
+    background-color: #EFBC75;
+    color: #1A4A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+  
+  /* Sign-in Container */
+  .signin-container {
+    background: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #1A4A5A;
+  }
+  
+  label, p {
+    font-size: 1em;
+    color: #148D8D;
+  }
+  
+  input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #C1E1A7;
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #5FBD00;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-login {
+    margin-top: 1em;
+  }
+  
+  .social-btn {
+    display: block;
+    margin: 5px auto;
+    padding: 8px;
+    width: 80%;
+    background-color: #148D8D;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  /* Set base font size for the page */
+body {
+  font-size: 18px;  /* Standard font size for body text */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling the difficulty options */
+.difficulty-option {
+  font-size: 24px; /* Larger size for clickable difficulty levels */
+  font-weight: bold; /* Makes the text stand out */
+  color: #148D8D; /* Example color from the Figma palette */
+}
+
+.difficulty-option:hover {
+  font-size: 26px; /* Slightly larger on hover to make it interactive */
+  color: #BB9200; /* A different color to create contrast */
+}
+
+/* Base font styling */
+body {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for quiz option boxes */
+.quiz-option {
+  font-size: 22px; /* Font size for quiz topics */
+  color: #5FBD00; /* Example color from the palette */
+  text-align: center; /* Center text within each box */
+  padding: 10px; /* Adds space around the text */
+  transition: font-size 0.1s ease, color 0.1s ease; /* Animation for smooth hover effects */
+  margin: 10px;
+  gap: 10px;
+}
+
+.quiz-option:hover {
+  font-size: 24px; /* Slightly larger on hover for interactivity */
+  color: #ffffff; /* Hover color to create a playful effect */
+}
+
+/* Base font styling for quiz page */
+body {
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the question text */
+.quiz-question {
+  font-size: 36px; /* Larger size for questions */
+  color: #1A4A5A; /* Darker color for readability */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px; /* Adds space below the question */
+}
+
+/* Styling for answer options */
+.answer-option {
+  font-size: 20px; /* Slightly smaller than the question text */
+  color: #148D8D;
+  padding: 10px 15px;
+  transition: font-size 0.2s, color 0.2s; /* Smooth hover effect */
+}
+
+.answer-option:hover {
+  font-size: 22px; /* Increases size slightly on hover */
+  color: #BB9200; /* Changes color to be playful and interactive */
+}
+
+/* Styling for "Let's Go" button */
+.start-quiz-button {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #5FBD00;
+  padding: 15px 30px;
+  border-radius: 8px;
+  transition: font-size 0.2s, background-color 0.2s; /* Transition effect for interaction */
+  background-color: #EFBC75;
+}
+
+.start-quiz-button:hover {
+  font-size: 22px; /* Emphasizes the button on hover */
+  background-color: #EFBC75; /* Changes color for a fun effect */
+}
+.Are-you-ready-button {
+  align-content: centre;
+}
+.quiz-option {
+  display: block;
+  width: 150px;
+  padding: 15px;
+  background-color: #5FBD00;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s, font-size 0.2s;
+  margin: 10px; /* Adjust this value to control space between buttons */
+}
+.quiz-option {
+  margin-right: 10px; /* Space between buttons horizontally */
+  margin-bottom: 10px; /* Space between rows of buttons */
+}
+.quiz-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Space between buttons */
+}
+.quiz-options {
+  padding: 20px; /* Adds padding around the button group */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Space between buttons */
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Poppins', KoHo;
+  background-color: #EFBC75; /* Background color from your palette */
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.quiz-heading {
+  font-size: 44px; /* Adjust as needed */
+  color: #1A4A5A; /* Example color from your palette */
+  margin-bottom: 20px; /* Space between heading and buttons */
+  font-weight: bold;
+}
+
+.quiz-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Space between buttons */
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.quiz-option {
+  width: 150px;
+  padding: 15px;
+  background-color: #5FBD00;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s, font-size 0.2s;
+}
+
+
+
+
+
+
+
+
+/* css files for quiz */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #1A4A5A;
+  font-size: 24px; /* Updated font size */
+}
+
+.question {
+  font-size: 20px; /* Updated question font size */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #148D8D;
+  color: white;
+  text-align: center;
+  padding: 15px; /* Updated padding */
+  margin: 10px 0; /* Updated margin */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 18px; /* Updated font size */
+}
+
+.button:hover {
+  background-color: #1A4A5A;
+}
+
+.back-button {
+  background-color: #BB9200;
+}
+
+.back-button:hover {
+  background-color: #C1E1A7;
+}
+
+
+
+
+
+
+
+
+/* buttons lets see what happens */
+body {
+  font-family: poppins, KoHo;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 
+
+
+
+
+
+
+  /* colours for right and wrong options */
+  /* Base button styling */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #148D8D;  /* Default color */
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #1A4A5A;
+}
+
+/* Correct answer styling */
+.correct {
+  background-color: #5FBD00; /* Green for correct answer */
+  color: white;
+}
+
+/* Incorrect answer styling */
+.incorrect {
+  background-color: #BB4A4A; /* Red for incorrect answer */
+  color: white;
+}
