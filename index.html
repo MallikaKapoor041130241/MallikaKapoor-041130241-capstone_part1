@@ -1,25 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to QuizAMI</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="index-container">
-        <div class="index-header">
-            <h1>Welcome to QuizAMI!</h1>
-            <p>Your ultimate quiz companion. Test your skills across various topics.</p>
-        </div>
-        <div class="index-buttons">
-            <button class="start-button" onclick="window.location.href='log-in.html'">Sign In</button>
-            <button class="start-button" onclick="window.location.href='sign-up.html'">Create Account</button>
-            <button class="start-button" onclick="window.location.href='quiz-options.html'">Start Quiz</button>
-        </div>
-        <div class="index-footer">
-            <p>Already have an account? <a href="sign-up.html">Log in here</a></p>
-        </div>
+  <header>
+    <div class="header-content">
+      <img src="C:\Users\HP\Documents\Capstone final\Capstone part-4\images\logo.png" alt="Quiz App Logo" class="logo">
+      <h1 class="title">QuizAMI</h1>
     </div>
+  </header>
+
+  <main>
+    <div class="category-selection">
+      <label for="category">Choose a Category:</label>
+      <select id="category">
+        <option value="linux">Linux</option>
+        <option value="docker">Docker</option>
+        <option value="wordpress">WordPress</option>
+        <option value="sql">SQL</option>
+        <option value="laravel">Laravel</option>
+        <option value="bash">Bash</option>
+      </select>
+    </div>
+
+    <form id="difficulty-form">
+      <label for="difficulty">Choose difficulty:</label>
+      <select id="difficulty" name="difficulty">
+        <option value="easy">Beginner</option>
+        <option value="medium">Runner</option>
+        <option value="hard">Expert</option>
+      </select>
+      <button type="submit" class="start-btn">Start Quiz</button>
+    </form>
+
+    <div id="quiz-container" class="hidden">
+      <p id="question"></p>
+      <div id="answers"></div>
+    </div>
+
+    <div id="stats">
+      <p>Correct: <span id="correct-count">0</span></p>
+      <p>Incorrect: <span id="incorrect-count">0</span></p>
+      <button id="reset-stats" class="reset-btn">Reset Stats</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made by Mallika | © 2024</p>
+  </footer>
+  
+  <script src="script.js"></script>
 </body>
 </html>
